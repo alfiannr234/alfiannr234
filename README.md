@@ -31,7 +31,7 @@ An Informatics student at Universitas Sebelas Maret (UNS) cohort 2025. Passionat
 
 ### 📊 My GitHub Stats & Dynamic Activity
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=alfiannr234&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=USERNAME_ASLI_KAMU&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
   <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=alfiannr234&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
