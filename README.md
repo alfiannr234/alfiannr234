@@ -9,21 +9,20 @@
 An Informatics student at Universitas Sebelas Maret (UNS) cohort 2025. Passionate about computer systems architecture, programming logic, and building robust digital products. Currently deep-diving into full-stack development.
 
 - 🎓 **Education:** Informatics at Universitas Sebelas Maret
-- 📍 **Location:** Sukoharjo, Indonesia
 - 🛠️ **Focusing on:** Full-Stack Development & Web Technologies
-- ⚡ **Fun Fact:** I prefer hands-on problem solving and building things over just reading raw theories.
 
 ---
 
 ### 💻 Technologies & Tools
 <p align="left">
-  <!-- Languages -->
   <img src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
   <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
   
-  <!-- Backend / Tech Stack -->
   <img src="https://img.shields.io/badge/node.js-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
 </p>
@@ -31,9 +30,8 @@ An Informatics student at Universitas Sebelas Maret (UNS) cohort 2025. Passionat
 ---
 
 ### 📊 My GitHub Stats & Dynamic Activity
-<!-- Bagian ini otomatis beranimasi dan memperbarui data secara dinamis -->
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=alfiannr234&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Alfian's GitHub Stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=alfiannr234&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
   <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=alfiannr234&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
