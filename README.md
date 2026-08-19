@@ -2,8 +2,6 @@
 
 > Memorable developer positioning.
 
-## Header
-
 Hi, I'm **alfiannr234**. This README shares what I'm building, the tools I use, and the work I'm proud of.
 
 <p align="center">
@@ -12,7 +10,6 @@ Hi, I'm **alfiannr234**. This README shares what I'm building, the tools I use, 
     <img src="https://www.gitskins.com/api/section/hero?username=alfiannr234&theme=zen" alt="alfiannr234 hero section" />
   </picture>
 </p>
-## About Me
 
 <p align="center">
   <picture>
@@ -20,7 +17,6 @@ Hi, I'm **alfiannr234**. This README shares what I'm building, the tools I use, 
     <img src="https://www.gitskins.com/api/section/about?username=alfiannr234&theme=zen" alt="alfiannr234 about section" />
   </picture>
 </p>
-## Skills
 
 <p align="center">
   <picture>
@@ -28,7 +24,6 @@ Hi, I'm **alfiannr234**. This README shares what I'm building, the tools I use, 
     <img src="https://www.gitskins.com/api/section/stack?username=alfiannr234&theme=zen" alt="alfiannr234 stack section" />
   </picture>
 </p>
-## GitHub Stats
 
 <p align="center">
   <picture>
@@ -36,7 +31,6 @@ Hi, I'm **alfiannr234**. This README shares what I'm building, the tools I use, 
     <img src="https://www.gitskins.com/api/section/stats?username=alfiannr234&theme=zen" alt="alfiannr234 stats section" />
   </picture>
 </p>
-## Projects
 
 <p align="center">
   <picture>
@@ -44,9 +38,6 @@ Hi, I'm **alfiannr234**. This README shares what I'm building, the tools I use, 
     <img src="https://www.gitskins.com/api/section/projects?username=alfiannr234&theme=zen" alt="alfiannr234 projects section" />
   </picture>
 </p>
-## Heatmap
-
-## Connect
 
 <p align="center">
   <picture>
