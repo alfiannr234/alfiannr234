@@ -1,7 +1,6 @@
-# Hi there, I'm Alfian Naufal Rabbani 👋 🚀
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=alfiannr234&label=Profile%20views&color=0284c7&style=flat" alt="Profile Views" />
-</p>
+<div align="center">
+  <img src="./animated-banner.svg" alt="ALFIANNR234 Banner" />
+</div>
 
 ---
 
