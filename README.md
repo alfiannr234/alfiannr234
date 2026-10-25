@@ -67,13 +67,27 @@
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
+## `// GITHUB_TROPHIES_`
+
+<div align="center">
+
+  <a href="https://github.com/Alfiannr234">
+    <img src="https://github-trophies.vercel.app/?username=Alfiannr234&theme=tokyonight&no-bg=true&margin-w=4" alt="GitHub Trophies"/>
+  </a>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+
 ## `// GITHUB_STATS_`
 
 <div align="center">
 
   <!-- Stats Card + Streak Side by Side -->
   <a href="https://github.com/Alfiannr234">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=Alfiannr234&show_icons=true&hide_border=true&title_color=5ce0d8&text_color=c9d1d9&icon_color=7b68ee&bg_color=0a1628&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=Alfiannr234&show_icons=true&hide_border=true&title_color=5ce0d8&text_color=c9d1d9&icon_color=7b68ee&bg_color=0a1628&count_private=true&include_all_commits=true&cache_seconds=1800" alt="GitHub Stats"/>
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/Alfiannr234">
@@ -84,39 +98,8 @@
 
   <!-- Top Languages -->
   <a href="https://github.com/Alfiannr234">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alfiannr234&layout=compact&hide_border=true&title_color=5ce0d8&text_color=c9d1d9&bg_color=0a1628&langs_count=8" alt="Top Languages"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alfiannr234&layout=compact&hide_border=true&title_color=5ce0d8&text_color=c9d1d9&bg_color=0a1628&langs_count=8&cache_seconds=1800" alt="Top Languages"/>
   </a>
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-
-## `// FEATURED_PROJECTS_`
-
-<div align="center">
-
-  <a href="https://github.com/Alfiannr234/pasargedhesolo-navigation">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alfiannr234&repo=pasargedhesolo-navigation&hide_border=true&title_color=5ce0d8&text_color=c9d1d9&icon_color=7b68ee&bg_color=0a1628" alt="pasargedhesolo-navigation"/>
-  </a>
-  <a href="https://github.com/Alfiannr234/image_compression">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alfiannr234&repo=image_compression&hide_border=true&title_color=5ce0d8&text_color=c9d1d9&icon_color=7b68ee&bg_color=0a1628" alt="image_compression"/>
-  </a>
-
-  <!-- 
-    ╔═══════════════════════════════════════════════════════════════════╗
-    ║  ADD YOUR PINNED REPOS HERE                                      ║
-    ║  Replace "Alfiannr234" with your actual repo names:              ║
-    ║                                                                   ║
-    ║  <a href="https://github.com/Alfiannr234/YOUR-REPO-NAME">       ║
-    ║    <img src="https://github-readme-stats.vercel.app/api/pin/     ║
-    ║    ?username=Alfiannr234&repo=YOUR-REPO-NAME&hide_border=true    ║
-    ║    &title_color=5ce0d8&text_color=c9d1d9&icon_color=7b68ee       ║
-    ║    &bg_color=0a1628" />                                          ║
-    ║  </a>                                                            ║
-    ╚═══════════════════════════════════════════════════════════════════╝
-  -->
 
 </div>
 
