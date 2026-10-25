@@ -97,8 +97,11 @@
 
 <div align="center">
 
-  <a href="https://github.com/Alfiannr234?tab=repositories">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alfiannr234&repo=Alfiannr234&hide_border=true&title_color=5ce0d8&text_color=c9d1d9&icon_color=7b68ee&bg_color=0a1628" alt="Profile Repo"/>
+  <a href="https://github.com/Alfiannr234/pasargedhesolo-navigation">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alfiannr234&repo=pasargedhesolo-navigation&hide_border=true&title_color=5ce0d8&text_color=c9d1d9&icon_color=7b68ee&bg_color=0a1628" alt="pasargedhesolo-navigation"/>
+  </a>
+  <a href="https://github.com/Alfiannr234/image_compression">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alfiannr234&repo=image_compression&hide_border=true&title_color=5ce0d8&text_color=c9d1d9&icon_color=7b68ee&bg_color=0a1628" alt="image_compression"/>
   </a>
 
   <!-- 
