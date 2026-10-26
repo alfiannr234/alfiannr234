@@ -1,0 +1,43 @@
+name: Auto Update Profile & Activity
+
+on:
+  schedule:
+    # Runs every 6 hours
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-activity:
+    name: Update Recent Activity & Purge Cache
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update Recent Activity
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          GH_USERNAME: "Alfiannr234"
+          MAX_LINES: 5
+          TARGET_FILE: "README.md"
+          COMMIT_MSG: "⚡ auto-update: refresh recent activity [skip ci]"
+          EMPTY_COMMIT_MSG: "keepalive: maintain automated workflows active"
+
+      - name: Purge GitHub Camo Cache
+        run: |
+          echo "Fetching profile HTML to find Camo image URLs..."
+          PROFILE_HTML=$(curl -s -H "User-Agent: Mozilla/5.0" "https://github.com/Alfiannr234")
+          CAMO_URLS=$(echo "$PROFILE_HTML" | grep -o 'https://camo.githubusercontent.com/[^" ]*' | sort -u || true)
+          for url in $CAMO_URLS; do
+            echo "Purging $url"
+            curl -s -X PURGE "$url" || true
+          done
+          echo "Camo cache purge completed."
