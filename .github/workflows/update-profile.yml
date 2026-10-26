@@ -1,43 +1,36 @@
-name: Auto Update Profile & Activity
+name: Auto Refresh Stats & Trophies
 
 on:
   schedule:
-    # Runs every 6 hours
-    - cron: "0 */6 * * *"
+    # Runs every hour
+    - cron: "0 * * * *"
   workflow_dispatch:
   push:
     branches:
       - main
 
 jobs:
-  update-activity:
-    name: Update Recent Activity & Purge Cache
+  refresh:
+    name: Purge Camo Cache & Refresh Metrics
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Update Recent Activity
-        uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          GH_USERNAME: "Alfiannr234"
-          MAX_LINES: 5
-          TARGET_FILE: "README.md"
-          COMMIT_MSG: "⚡ auto-update: refresh recent activity [skip ci]"
-          EMPTY_COMMIT_MSG: "keepalive: maintain automated workflows active"
-
-      - name: Purge GitHub Camo Cache
+      - name: Warm Up Upstream Metrics Services
         run: |
-          echo "Fetching profile HTML to find Camo image URLs..."
+          echo "Warming upstream services with latest GitHub data..."
+          curl -s -H "User-Agent: Mozilla/5.0" "https://github-trophies.vercel.app/?username=Alfiannr234&theme=tokyonight&no-bg=true&margin-w=4" > /dev/null || true
+          curl -s -H "User-Agent: Mozilla/5.0" "https://github-readme-stats.vercel.app/api?username=Alfiannr234&show_icons=true&hide_border=true&title_color=5ce0d8&text_color=c9d1d9&icon_color=7b68ee&bg_color=0a1628&count_private=true&include_all_commits=true&cache_seconds=1800" > /dev/null || true
+          curl -s -H "User-Agent: Mozilla/5.0" "https://github-readme-streak-stats.herokuapp.com?user=Alfiannr234&hide_border=true&background=0A1628&ring=5CE0D8&fire=5CE0D8&currStreakLabel=5CE0D8&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=888888" > /dev/null || true
+          curl -s -H "User-Agent: Mozilla/5.0" "https://github-readme-stats.vercel.app/api/top-langs/?username=Alfiannr234&layout=compact&hide_border=true&title_color=5ce0d8&text_color=c9d1d9&bg_color=0a1628&langs_count=8&cache_seconds=1800" > /dev/null || true
+          echo "Upstream services pinged."
+
+      - name: Purge GitHub Camo Cache for Profile Images
+        run: |
+          echo "Fetching profile HTML from GitHub..."
           PROFILE_HTML=$(curl -s -H "User-Agent: Mozilla/5.0" "https://github.com/Alfiannr234")
           CAMO_URLS=$(echo "$PROFILE_HTML" | grep -o 'https://camo.githubusercontent.com/[^" ]*' | sort -u || true)
+          echo "Found Camo URLs to purge:"
           for url in $CAMO_URLS; do
-            echo "Purging $url"
+            echo "Purging: $url"
             curl -s -X PURGE "$url" || true
           done
-          echo "Camo cache purge completed."
+          echo "All Camo image caches purged successfully."
