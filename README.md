@@ -87,7 +87,7 @@
 
   <!-- Stats Card + Streak Side by Side -->
   <a href="https://github.com/Alfiannr234">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=Alfiannr234&show_icons=true&hide_border=true&title_color=5ce0d8&text_color=c9d1d9&icon_color=7b68ee&bg_color=0a1628&count_private=true&include_all_commits=true&cache_seconds=1800" alt="GitHub Stats"/>
+    <img height="180" src="https://github-readme-stats-fast.vercel.app/api?username=Alfiannr234&show_icons=true&hide_border=true&title_color=5ce0d8&text_color=c9d1d9&icon_color=7b68ee&bg_color=0a1628&count_private=true&include_all_commits=true&cache_seconds=1800" alt="GitHub Stats"/>
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/Alfiannr234">
@@ -98,7 +98,7 @@
 
   <!-- Top Languages -->
   <a href="https://github.com/Alfiannr234">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alfiannr234&layout=compact&hide_border=true&title_color=5ce0d8&text_color=c9d1d9&bg_color=0a1628&langs_count=8&cache_seconds=1800" alt="Top Languages"/>
+    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Alfiannr234&layout=compact&hide_border=true&title_color=5ce0d8&text_color=c9d1d9&bg_color=0a1628&langs_count=8&cache_seconds=1800" alt="Top Languages"/>
   </a>
 
 </div>
