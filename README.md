@@ -11,7 +11,7 @@
 
   <!-- Typing Effect Subtitle -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=5CE0D8&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=50&lines=Building+scalable+apps+with+Laravel+%7C+Flutter+%7C+Node.js" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=5CE0D8&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=50&lines=Building+with+Laravel+%7C+Flutter+%7C+Node.js" alt="Typing SVG" />
   </a>
 
   <br/>
